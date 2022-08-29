@@ -6,7 +6,7 @@ let idade
 
 //Imprima na tela o **tipo** dessas variáveis que acabou de criar, usando o comando `typeof`.
 console.log ("A variavel nome é do tipo:", typeof (nome))
-console.log ("A variavel nome é do tipo:", typeof (idade))
+console.log ("A variavel idade é do tipo:", typeof (idade))
 
 //Reflita: por que esse tipo foi impresso? Escreva a resposta em um comentário de código.
 //Não havia nenhum valor atribuido as variaveis, dessa forma o JS reconhece como uma variavel do tipo undefined.
@@ -18,7 +18,7 @@ idade = prompt ("Qual a sua idade?")
 
 //Novamente, imprima na tela o tipo dessas variáveis. O que você notou? Escreva em um comentário de código.
 console.log ("A variavel nome é do tipo:", typeof (nome))
-console.log ("A variavel nome é do tipo:", typeof (idade))
+console.log ("A variavel idade é do tipo:", typeof (idade))
 
 //Para finalizar, imprima na tela a mensagem: 
 //"Olá `nome`,  você tem `idade` anos". Onde `nome` e `idade` são os valores que o usuário inseriu
